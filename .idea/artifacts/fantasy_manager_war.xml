@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fantasy-manager:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="fantasy-manager.war">
+      <element id="artifact" artifact-name="fantasy-manager:war exploded" />
+    </root>
+  </artifact>
+</component>
