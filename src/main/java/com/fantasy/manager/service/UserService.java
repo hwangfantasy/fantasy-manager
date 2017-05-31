@@ -10,9 +10,7 @@ import com.fantasy.manager.dao.SysRoleMapper;
 import com.fantasy.manager.dao.SysUserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.util.CollectionUtils;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 /**
