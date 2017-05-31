@@ -44,6 +44,7 @@
         </javaClientGenerator>
 
         <!--对应数据库表名 -->
+        <table tableName="sys_log"/>
         <table tableName="sys_user"/>
         <table tableName="sys_role"/>
         <table tableName="sys_resource"/>

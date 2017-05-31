@@ -1,5 +1,6 @@
 package com.fantasy.manager.controller;
 
+import com.fantasy.manager.annotation.OperationLog;
 import com.fantasy.manager.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,6 +20,7 @@ public class UserController extends AbstractController {
     @Autowired
     private UserService userService;
 
+    @OperationLog("查找用户")
     @RequestMapping(value = "/findUser/{id}")
     @ResponseBody
     public String findUserName(@PathVariable Integer id){

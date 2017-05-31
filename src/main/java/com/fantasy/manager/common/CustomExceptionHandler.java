@@ -15,7 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 @ControllerAdvice
 public class CustomExceptionHandler {
 
-    @ExceptionHandler({UnauthorizedException.class})
+    @ExceptionHandler(UnauthorizedException.class)
     @ResponseStatus(HttpStatus.UNAUTHORIZED)
     public ModelAndView processUnauthenticatedException(UnauthorizedException e) {
         ModelAndView mv = new ModelAndView();

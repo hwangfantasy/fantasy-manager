@@ -10,10 +10,29 @@ Target Server Type    : MYSQL
 Target Server Version : 50714
 File Encoding         : 65001
 
-Date: 2017-05-27 16:44:09
+Date: 2017-05-31 16:04:15
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for sys_log
+-- ----------------------------
+DROP TABLE IF EXISTS `sys_log`;
+CREATE TABLE `sys_log` (
+  `id` int(11) NOT NULL,
+  `username` varchar(25) DEFAULT NULL COMMENT '用户名',
+  `operation` varchar(25) DEFAULT NULL COMMENT '用户操作',
+  `method` varchar(100) DEFAULT NULL COMMENT '请求方法',
+  `parameter` varchar(255) DEFAULT NULL COMMENT '请求参数',
+  `ip` varchar(20) DEFAULT NULL COMMENT 'ip地址',
+  `operate_time` datetime DEFAULT NULL COMMENT '操作时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of sys_log
+-- ----------------------------
 
 -- ----------------------------
 -- Table structure for sys_resource
