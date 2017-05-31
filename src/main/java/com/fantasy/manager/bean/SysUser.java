@@ -1,6 +1,11 @@
 package com.fantasy.manager.bean;
 
+import org.apache.commons.lang3.StringUtils;
+
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
+import java.util.List;
 
 public class SysUser {
     /**
@@ -357,5 +362,19 @@ public class SysUser {
 
     public String getCredentialsSalt() {
         return username + salt;
+    }
+
+    public List<Integer> getRoleIdList(){
+        List<Integer> roleIdList = new ArrayList<>();
+        if(StringUtils.isEmpty(roleIds))
+            return Collections.EMPTY_LIST;
+        String[] roleIdStrs = roleIds.split(",");
+        for(String roleIdStr : roleIdStrs) {
+            if(StringUtils.isEmpty(roleIdStr)) {
+                continue;
+            }
+            roleIdList.add(Integer.valueOf(roleIdStr));
+        }
+        return roleIdList;
     }
 }

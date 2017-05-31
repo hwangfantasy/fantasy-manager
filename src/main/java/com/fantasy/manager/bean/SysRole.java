@@ -1,6 +1,11 @@
 package com.fantasy.manager.bean;
 
+import org.apache.commons.lang3.StringUtils;
+
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
+import java.util.List;
 
 public class SysRole {
     /**
@@ -265,5 +270,19 @@ public class SysRole {
      */
     public void setCreateTime(Date createTime) {
         this.createTime = createTime;
+    }
+
+    public List<Integer> getResourceIdList(){
+        List<Integer> resourceIdList = new ArrayList<>();
+        if(StringUtils.isEmpty(resourceIds))
+            return Collections.EMPTY_LIST;
+        String[] resourceIdStrs = resourceIds.split(",");
+        for(String resourceIdStr : resourceIdStrs) {
+            if(StringUtils.isEmpty(resourceIdStr)) {
+                continue;
+            }
+            resourceIdList.add(Integer.valueOf(resourceIdStr));
+        }
+        return resourceIdList;
     }
 }
