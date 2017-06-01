@@ -157,6 +157,11 @@
         </dependency>
         <dependency>
             <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-quartz</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-spring</artifactId>
             <version>1.2.2</version>
         </dependency>
@@ -165,6 +170,19 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.6</version>
         </dependency>
+
+        <!--redis-->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-redis</artifactId>
+            <version>1.6.0.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.7.3</version>
+        </dependency>
+
     </dependencies>
     <build>
         <finalName>fantasy-manager</finalName>
