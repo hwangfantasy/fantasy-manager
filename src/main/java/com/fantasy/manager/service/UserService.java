@@ -1,20 +1,16 @@
 package com.fantasy.manager.service;
 
-import com.fantasy.manager.bean.SysResource;
-import com.fantasy.manager.bean.SysRole;
-import com.fantasy.manager.bean.SysUser;
-import com.fantasy.manager.bean.SysUserExample;
+import com.fantasy.manager.bean.*;
 import com.fantasy.manager.common.PasswordGenerator;
-import com.fantasy.manager.dao.SysResourceMapper;
-import com.fantasy.manager.dao.SysRoleMapper;
-import com.fantasy.manager.dao.SysUserMapper;
+import com.fantasy.manager.dao.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
 
 import java.util.*;
 
 /**
- * @作者 yunfeiyang
+ * @作者 hwangfantasy
  * @创建时间: 2017/5/27 <br/>
  * @方法描述: SysUserServiceImpl. <br/>
  */
@@ -27,7 +23,13 @@ public class UserService {
     private SysRoleMapper sysRoleMapper;
 
     @Autowired
-    private SysResourceMapper sysResourceMapper;
+    private SysPermissionMapper sysPermissionMapper;
+
+    @Autowired
+    private SysUserRoleMapper sysUserRoleMapper;
+
+    @Autowired
+    private SysRolePermissionMapper sysRolePermissionMapper;
 
     @Autowired
     private PasswordGenerator passwordGenerator;
@@ -57,7 +59,7 @@ public class UserService {
         SysUser user = findSysUserByUsername(username);
         if(user == null)
             return Collections.EMPTY_SET;
-        List<Integer> roleIdList = user.getRoleIdList();
+        List<Integer> roleIdList = findRoleIdsByUserId(user.getId());
         Set<SysRole> sysRoles = findSysRoleByIds(roleIdList.toArray(new Integer[0]));
         Set<String> roles = new HashSet<>();
         for(SysRole sysRole : sysRoles){
@@ -66,17 +68,45 @@ public class UserService {
         return roles;
     }
 
+    public List<Integer> findRoleIdsByUserId(Integer userId){
+        SysUserRoleExample sysUserRoleExample = new SysUserRoleExample();
+        sysUserRoleExample.createCriteria().andUserIdEqualTo(userId).andAvailableEqualTo(true);
+        List<SysUserRole> sysUserRoleList =  sysUserRoleMapper.selectByExample(sysUserRoleExample);
+        if(CollectionUtils.isEmpty(sysUserRoleList)){
+            return Collections.EMPTY_LIST;
+        }
+        List<Integer> roleIds = new ArrayList<>();
+        for (SysUserRole sysUserRole : sysUserRoleList){
+            roleIds.add(sysUserRole.getRoleId());
+        }
+        return roleIds;
+    }
+
     public Set<String> findPermissionsByUsername(String username){
         SysUser user = findSysUserByUsername(username);
         if(user == null)
             return Collections.EMPTY_SET;
-        List<Integer> roleIdList = user.getRoleIdList();
+        List<Integer> roleIdList = findRoleIdsByUserId(user.getId());
         Set<SysRole> sysRoles = findSysRoleByIds(roleIdList.toArray(new Integer[0]));
         Set<String> permissions = new HashSet<>();
         for (SysRole sysRole : sysRoles){
-           permissions.addAll(findPermissionByIds(sysRole.getResourceIdList().toArray(new Integer[0])));
+           permissions.addAll(findPermissionByIds(findPermissionIdsByRoleId(sysRole.getId()).toArray(new Integer[0])));
         }
         return permissions;
+    }
+
+    public List<Integer> findPermissionIdsByRoleId(Integer roleId){
+        SysRolePermissionExample sysRolePermissionExample = new SysRolePermissionExample();
+        sysRolePermissionExample.createCriteria().andRoleIdEqualTo(roleId).andAvailableEqualTo(true);
+        List<SysRolePermission> sysRolePermissionList =  sysRolePermissionMapper.selectByExample(sysRolePermissionExample);
+        if(CollectionUtils.isEmpty(sysRolePermissionList)){
+            return Collections.EMPTY_LIST;
+        }
+        List<Integer> permissionIds = new ArrayList<>();
+        for (SysRolePermission sysRolePermission : sysRolePermissionList){
+            permissionIds.add(sysRolePermission.getPermissionId());
+        }
+        return permissionIds;
     }
 
     public Set<SysRole> findSysRoleByIds(Integer... roleIds){
@@ -90,13 +120,13 @@ public class UserService {
         return roles;
     }
 
-    public Set<String> findPermissionByIds(Integer... resourceIds){
+    public Set<String> findPermissionByIds(Integer... permissionIds){
         Set<String> permissions = new HashSet<>();
-        if(resourceIds.length == 0)
+        if(permissionIds.length == 0)
             return Collections.EMPTY_SET;
-        for (Integer resourceId : resourceIds){
-            SysResource resource = sysResourceMapper.selectByPrimaryKey(resourceId);
-            permissions.add(resource.getPermission());
+        for (Integer permissionId : permissionIds){
+            SysPermission permission = sysPermissionMapper.selectByPrimaryKey(permissionId);
+            permissions.add(permission.getPermission());
         }
         return permissions;
     }

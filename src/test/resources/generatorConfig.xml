@@ -47,6 +47,8 @@
         <table tableName="sys_log"/>
         <table tableName="sys_user"/>
         <table tableName="sys_role"/>
-        <table tableName="sys_resource"/>
+        <table tableName="sys_permission"/>
+        <table tableName="sys_user_role"/>
+        <table tableName="sys_role_permission"/>
     </context>
 </generatorConfiguration>
