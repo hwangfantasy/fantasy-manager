@@ -9,16 +9,15 @@
 <form action="" method="post">
     用户名：<input type="text" name="username"><br/>
     密码：<input type="password" name="password"><br/>
-    验证码：<input type="text" name="captcha" value="" /><img th:src="@{/kaptcha.jpg}" id="captchaImg" /> <br/>
+    验证码：<input type="text" name="captcha" value="" /><img th:src="@{/captcha}" id="captchaImg" /> <a href="#" onclick="refreshImg();">看不清，换一张</a><br/>
     自动登录：<input type="checkbox" name="rememberMe" value="true"><br/>
     <input type="submit" value="登录">
 </form>
-<script>
-    $(function(){
-        $('#captchaImg').click(function() {
-            $(this).attr('src', $(this).attr('src')+'?'+Math.random());
-        });
-    });
+<script type="text/javascript">
+    function refreshImg(){
+        var img = document.getElementById("captchaImg");
+        img.src = "captcha?rand=" + Math.random();
+    }
 </script>
 </body>
 </html>

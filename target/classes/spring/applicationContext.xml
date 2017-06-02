@@ -84,6 +84,31 @@
         <property name="mapperLocations" value="classpath:mapper/*.xml"></property>
     </bean>
 
+    <bean id="captchaProducer" class="com.google.code.kaptcha.impl.DefaultKaptcha">
+        <property name="config">
+            <bean class="com.google.code.kaptcha.util.Config">
+                <constructor-arg>
+                    <props>
+                        <prop key="kaptcha.border">yes</prop>
+                        <prop key="kaptcha.border.thickness">8</prop>
+                        <prop key="kaptcha.border.color">238,238,238</prop>
+                        <prop key="kaptcha.textproducer.font.color">blue</prop>
+                        <prop key="kaptcha.noise.color">32,36,155</prop>
+                        <prop key="kaptcha.background.clear.from">white</prop>
+                        <prop key="kaptcha.background.clear.to">white</prop>
+                        <prop key="kaptcha.image.width">115</prop>
+                        <prop key="kaptcha.image.height">40</prop>
+                        <prop key="kaptcha.textproducer.font.size">30</prop>
+                        <prop key="kaptcha.textproducer.char.string">abcdehjkmnrtuvwx134678</prop>
+                        <prop key="kaptcha.session.key">code</prop>
+                        <prop key="kaptcha.textproducer.char.length">4</prop>
+                        <prop key="kaptcha.textproducer.char.space">7</prop>
+                    </props>
+                </constructor-arg>
+            </bean>
+        </property>
+    </bean>
+
     <!--redis config-->
     <bean id="jedisFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
         <property name="hostName" value="${redis.host}"/>
@@ -213,7 +238,7 @@
         </property>
         <property name="filterChainDefinitions">
             <value>
-                /kaptcha.jpg = anon
+                /captcha = anon
                 /login = authc
                 /logout = logout
                 /authenticated = authc
