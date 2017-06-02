@@ -13,6 +13,6 @@ public class LoginController extends AbstractController {
 
     @RequestMapping(value = {"/","/login"})
     public String login(){
-        return "views/login";
+        return "login";
     }
 }
