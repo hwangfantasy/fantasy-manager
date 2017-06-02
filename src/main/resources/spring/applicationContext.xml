@@ -193,10 +193,11 @@
     </bean>
 
     <!-- 基于Form表单的身份验证过滤器 -->
-    <bean id="formAuthenticationFilter" class="org.apache.shiro.web.filter.authc.FormAuthenticationFilter">
+    <bean id="captchaFormAuthenticationFilter" class="com.fantasy.manager.shiro.CaptchaFormAuthenticationFilter">
         <property name="usernameParam" value="username"/>
         <property name="passwordParam" value="password"/>
         <property name="rememberMeParam" value="rememberMe"/>
+        <property name="captchaParam" value="captcha"/>
     </bean>
 
     <!-- Shiro的Web过滤器 -->
@@ -207,11 +208,12 @@
         <property name="unauthorizedUrl" value="/unauthorized"/>
         <property name="filters">
             <util:map>
-                <entry key="authc" value-ref="formAuthenticationFilter"/>
+                <entry key="authc" value-ref="captchaFormAuthenticationFilter"/>
             </util:map>
         </property>
         <property name="filterChainDefinitions">
             <value>
+                /kaptcha.jpg = anon
                 /login = authc
                 /logout = logout
                 /authenticated = authc
