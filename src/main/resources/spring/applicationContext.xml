@@ -92,12 +92,12 @@
                         <prop key="kaptcha.border">yes</prop>
                         <prop key="kaptcha.border.thickness">8</prop>
                         <prop key="kaptcha.border.color">238,238,238</prop>
-                        <prop key="kaptcha.textproducer.font.color">blue</prop>
+                        <prop key="kaptcha.textproducer.font.color">black</prop>
                         <prop key="kaptcha.noise.color">32,36,155</prop>
                         <prop key="kaptcha.background.clear.from">white</prop>
                         <prop key="kaptcha.background.clear.to">white</prop>
                         <prop key="kaptcha.image.width">115</prop>
-                        <prop key="kaptcha.image.height">40</prop>
+                        <prop key="kaptcha.image.height">34</prop>
                         <prop key="kaptcha.textproducer.font.size">30</prop>
                         <prop key="kaptcha.textproducer.char.string">abcdehjkmnrtuvwx134678</prop>
                         <prop key="kaptcha.session.key">code</prop>
@@ -242,7 +242,9 @@
                 /login = authc
                 /logout = logout
                 /authenticated = authc
-                /index = anon
+                /css/** = anon
+                /js/** = anon
+                /img/** = anon
                 /** = authc
             </value>
         </property>

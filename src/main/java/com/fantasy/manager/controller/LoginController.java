@@ -18,14 +18,15 @@ public class LoginController extends AbstractController {
 
     @RequestMapping(value = {"/login"})
     public String showLoginForm(HttpServletRequest req, Model model) {
-        String exceptionClassName = (String) req.getAttribute("shiroLoginFailure");
+        Exception exception = (Exception) req.getAttribute("shiroLoginFailure");
+        String exceptionClassName = exception == null ? null : exception.getClass().getName();
         String error = null;
         if (UnknownAccountException.class.getName().equals(exceptionClassName)) {
             error = "用户名/密码错误";
         } else if (IncorrectCredentialsException.class.getName().equals(exceptionClassName)) {
             error = "用户名/密码错误";
         } else if (exceptionClassName != null) {
-            error = "其他错误：" + exceptionClassName;
+            error = "其他错误：" + exceptionClassName+","+exception.getMessage();
         }
         model.addAttribute("error", error);
         return "login";
