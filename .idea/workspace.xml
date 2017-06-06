@@ -2,217 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ab337b5-60ea-4933-b5a7-537a35e7be2d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/iCheck/green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/iCheck/green@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont93e3.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont93e3.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont93e3.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont93e3.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfontd41d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regulard41d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/iCheck/custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont93e3.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/iCheck/icheck.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/annotation/OperationLog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysLog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysLogExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysLogExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysLogExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysLogExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysPermission.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysPermissionExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysPermissionExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysPermissionExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysPermissionExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysRole.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysRoleExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysRoleExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysRoleExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysRoleExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysRolePermission.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysRolePermissionExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysRolePermissionExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysRolePermissionExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysRolePermissionExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysUserExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysUserExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysUserExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysUserExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysUserRole.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysUserRoleExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysUserRoleExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysUserRoleExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/bean/SysUserRoleExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/common/Assert.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/common/Constant.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/common/CustomException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/common/CustomExceptionHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/common/IncorrectCaptchaException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/common/PasswordGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/common/SysLogAspect.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/controller/AbstractController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/controller/CaptchaController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/controller/IndexController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/controller/LoginController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/controller/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/dao/SysLogMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/dao/SysPermissionMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/dao/SysRoleMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/dao/SysRolePermissionMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/dao/SysUserMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/dao/SysUserRoleMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/redis/RedisCache.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/redis/RedisCacheManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/redis/RedisSessionDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/service/LogService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/service/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/shiro/CaptchaAuthenticationToken.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/shiro/CaptchaFormAuthenticationFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/shiro/RetryLimitHashedCredentialsMatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/shiro/UserRealm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fantasy/manager/util/IpUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mapper/SysLogMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mapper/SysPermissionMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mapper/SysRoleMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mapper/SysRolePermissionMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mapper/SysUserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mapper/SysUserRoleMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring/springMvcServlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/annotation/OperationLog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysLog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysLogExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysLogExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysLogExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysLogExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysPermission.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysPermissionExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysPermissionExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysPermissionExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysPermissionExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysRole.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysRoleExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysRoleExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysRoleExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysRoleExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysRolePermission.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysRolePermissionExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysRolePermissionExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysRolePermissionExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysRolePermissionExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysUserExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysUserExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysUserExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysUserExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysUserRole.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysUserRoleExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysUserRoleExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysUserRoleExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/bean/SysUserRoleExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/common/Assert.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/common/Constant.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/common/CustomException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/common/CustomExceptionHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/common/IncorrectCaptchaException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/common/PasswordGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/common/SysLogAspect.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/controller/AbstractController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/controller/CaptchaController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/controller/IndexController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/controller/LoginController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/controller/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/dao/SysLogMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/dao/SysPermissionMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/dao/SysRoleMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/dao/SysRolePermissionMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/dao/SysUserMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/dao/SysUserRoleMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/redis/RedisCache.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/redis/RedisCacheManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/redis/RedisSessionDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/service/LogService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/service/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/shiro/CaptchaAuthenticationToken.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/shiro/CaptchaFormAuthenticationFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/shiro/RetryLimitHashedCredentialsMatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/shiro/UserRealm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/com/fantasy/manager/util/IpUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/config/config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/config/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/mapper/SysLogMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/mapper/SysPermissionMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/mapper/SysRoleMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/mapper/SysRolePermissionMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/mapper/SysUserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/mapper/SysUserRoleMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/spring/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/classes/spring/springMvcServlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/attoparser-2.0.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/commons-collections-3.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/commons-lang3-3.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/commons-pool2-2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/druid-1.0.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/fastjson-1.2.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/filters-2.0.235.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/javassist-3.20.0-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/jcl-over-slf4j-1.7.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/jedis-2.7.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/kaptcha-0.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/logback-classic-1.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/logback-core-1.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/logback-ext-spring-0.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/mybatis-3.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/mybatis-spring-1.2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/mysql-connector-java-5.1.31.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/ognl-3.1.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/quartz-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/shiro-core-1.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/shiro-quartz-1.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/shiro-spring-1.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/shiro-web-1.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/slf4j-api-1.6.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/spring-aop-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/spring-aspects-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/spring-beans-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/spring-context-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/spring-context-support-4.1.7.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/spring-core-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/spring-data-redis-1.6.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/spring-expression-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/spring-jdbc-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/spring-session-1.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/spring-tx-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/spring-web-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/spring-webmvc-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/thymeleaf-3.0.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/thymeleaf-spring4-3.0.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/lib/unbescape-1.1.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/views/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/views/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/views/unauthorized.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fantasy-manager/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/generatorConfig.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/generatorConfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/lib/mysql-connector-java-5.1.39.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/sql/fantasy-manager.sql" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fantasy/manager/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/fantasy/manager/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -229,7 +20,7 @@
       <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
+            <state relative-caret-position="3168">
               <caret line="99" column="59" lean-forward="false" selection-start-line="99" selection-start-column="59" selection-end-line="99" selection-end-column="59" />
               <folding />
             </state>
@@ -239,7 +30,7 @@
       <file leaf-file-name="CaptchaAuthenticationToken.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fantasy/manager/shiro/CaptchaAuthenticationToken.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="480">
               <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="37" />
               <folding />
             </state>
@@ -249,8 +40,8 @@
       <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fantasy/manager/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="469">
+              <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -259,7 +50,7 @@
       <file leaf-file-name="CaptchaFormAuthenticationFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fantasy/manager/shiro/CaptchaFormAuthenticationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
+            <state relative-caret-position="960">
               <caret line="41" column="28" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
               <folding />
             </state>
@@ -269,7 +60,7 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
+            <state relative-caret-position="960">
               <caret line="30" column="50" lean-forward="false" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -281,7 +72,7 @@
       <file leaf-file-name="bootstrap.min14ed.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.min14ed.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1633">
+            <state relative-caret-position="93792">
               <caret line="2931" column="1" lean-forward="false" selection-start-line="2931" selection-start-column="1" selection-end-line="2931" selection-end-column="1" />
               <folding />
             </state>
@@ -291,7 +82,7 @@
       <file leaf-file-name="font-awesome.min93e3.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/css/font-awesome.min93e3.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+            <state relative-caret-position="2336">
               <caret line="73" column="23" lean-forward="false" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
               <folding />
             </state>
@@ -301,7 +92,7 @@
       <file leaf-file-name="IncorrectCaptchaException.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fantasy/manager/common/IncorrectCaptchaException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="320">
               <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding />
             </state>
@@ -311,7 +102,7 @@
       <file leaf-file-name="style.min862f.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.min862f.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1473">
+            <state relative-caret-position="133344">
               <caret line="4167" column="1" lean-forward="false" selection-start-line="4167" selection-start-column="1" selection-end-line="4167" selection-end-column="1" />
               <folding />
             </state>
@@ -469,6 +260,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -985,15 +779,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-sample/spring-mvc-sample" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1578,11 +1369,12 @@
       <workItem from="1496366338855" duration="11873000" />
       <workItem from="1496384933000" duration="5617000" />
       <workItem from="1496628948345" duration="2674000" />
+      <workItem from="1496737248795" duration="66000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65692000" />
+    <option name="totallyTimeSpent" value="66177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1924" height="1084" extended-state="0" />
@@ -1600,54 +1392,27 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27029803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27029803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44398767" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22713257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299075" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295688" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27029803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22713257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299075" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1672,13 +1437,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/fantasy/manager/controller/LoginController.java</url>
-          <line>21</line>
+          <line>22</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/fantasy/manager/controller/LoginController.java</url>
-          <line>20</line>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -1711,7 +1476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1754,9 +1518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1814,9 +1575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="62" column="41" lean-forward="true" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1888,59 +1646,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/style.min862f.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1291">
-          <caret line="3916" column="4" lean-forward="false" selection-start-line="3916" selection-start-column="1" selection-end-line="3916" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="55" column="44" lean-forward="false" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="41" column="440" lean-forward="false" selection-start-line="41" selection-start-column="440" selection-end-line="41" selection-end-column="440" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.min14ed.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1056">
-          <caret line="3" column="61" lean-forward="false" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/font-awesome.min93e3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="1097" column="1" lean-forward="false" selection-start-line="1097" selection-start-column="1" selection-end-line="1097" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/fantasy-manager/WEB-INF/views/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/style.min862f.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/bootstrap.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/jquery.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.min14ed.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/font-awesome.min93e3.css" />
+    <entry file="file://$PROJECT_DIR$/target/fantasy-manager/WEB-INF/views/login.html" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/meta.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="170" column="47" lean-forward="true" selection-start-line="170" selection-start-column="47" selection-end-line="170" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1948,7 +1663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1956,7 +1670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="11" column="192" lean-forward="false" selection-start-line="11" selection-start-column="192" selection-end-line="11" selection-end-column="192" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1964,9 +1677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="51" column="18" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1974,9 +1684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="41" column="278" lean-forward="false" selection-start-line="41" selection-start-column="278" selection-end-line="41" selection-end-column="278" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1984,13 +1691,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.min862f.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1473">
+        <state relative-caret-position="133344">
           <caret line="4167" column="1" lean-forward="false" selection-start-line="4167" selection-start-column="1" selection-end-line="4167" selection-end-column="1" />
           <folding />
         </state>
@@ -1998,7 +1704,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/font-awesome.min93e3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="2336">
           <caret line="73" column="23" lean-forward="false" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
           <folding />
         </state>
@@ -2006,7 +1712,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.min14ed.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1633">
+        <state relative-caret-position="93792">
           <caret line="2931" column="1" lean-forward="false" selection-start-line="2931" selection-start-column="1" selection-end-line="2931" selection-end-column="1" />
           <folding />
         </state>
@@ -2014,7 +1720,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
+        <state relative-caret-position="960">
           <caret line="30" column="50" lean-forward="false" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -2024,7 +1730,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fantasy/manager/common/IncorrectCaptchaException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="320">
           <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
@@ -2034,13 +1740,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="122" column="22" lean-forward="false" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fantasy/manager/shiro/CaptchaFormAuthenticationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
+        <state relative-caret-position="960">
           <caret line="41" column="28" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
           <folding />
         </state>
@@ -2048,7 +1753,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
+        <state relative-caret-position="3168">
           <caret line="99" column="59" lean-forward="false" selection-start-line="99" selection-start-column="59" selection-end-line="99" selection-end-column="59" />
           <folding />
         </state>
@@ -2056,7 +1761,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fantasy/manager/shiro/CaptchaAuthenticationToken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="480">
           <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="37" />
           <folding />
         </state>
@@ -2066,14 +1771,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
           <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fantasy/manager/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="469">
+          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding />
         </state>
       </provider>

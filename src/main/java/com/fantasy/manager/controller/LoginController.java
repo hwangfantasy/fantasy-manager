@@ -1,5 +1,6 @@
 package com.fantasy.manager.controller;
 
+import com.fantasy.manager.common.IncorrectCaptchaException;
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;
 import org.springframework.stereotype.Controller;
@@ -25,7 +26,9 @@ public class LoginController extends AbstractController {
             error = "用户名/密码错误";
         } else if (IncorrectCredentialsException.class.getName().equals(exceptionClassName)) {
             error = "用户名/密码错误";
-        } else if (exceptionClassName != null) {
+        } else if (IncorrectCaptchaException.class.getName().equals(exceptionClassName)) {
+            error = "验证码错误";
+        }else if (exceptionClassName != null) {
             error = "其他错误：" + exceptionClassName+","+exception.getMessage();
         }
         model.addAttribute("error", error);
