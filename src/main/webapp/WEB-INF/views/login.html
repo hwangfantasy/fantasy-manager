@@ -28,16 +28,16 @@
     <div>
         <h3>欢迎使用 Fantasy Manager</h3>
 
-        <form class="m-t" role="form" method="post">
+        <form class="m-t " role="form" method="post">
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="用户名" name="username">
             </div>
             <div class="form-group">
                 <input type="password" class="form-control" placeholder="密码" name="password">
             </div>
-            <div class="form-group">
-                <input type="text" class="form-control"  style="width: 50%" name="captcha"/>
-                <img th:src="@{/captcha}" id="captchaImg" onclick="refreshImg();"/>
+            <div class="form-group form-inline">
+                <input type="text" class="form-control"  name="captcha"/>
+                <img th:src="@{/captcha}" id="captchaImg" align="right" onclick="refreshImg();"/>
             </div>
             <div class="form-group text-left">
                 <div class="checkbox i-checks">
