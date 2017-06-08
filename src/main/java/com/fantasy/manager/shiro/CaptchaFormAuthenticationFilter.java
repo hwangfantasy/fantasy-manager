@@ -14,7 +14,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @作者 yunfeiyang
+ * @作者 hwangfantasy
  * @创建时间: 2017/6/2 <br/>
  * @方法描述: CaptchaFormAuthenticationFilter. <br/>
  */

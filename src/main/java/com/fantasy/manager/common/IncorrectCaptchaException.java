@@ -3,7 +3,7 @@ package com.fantasy.manager.common;
 import org.apache.shiro.authc.AuthenticationException;
 
 /**
- * @作者 yunfeiyang
+ * @作者 hwangfantasy
  * @创建时间: 2017/6/2 <br/>
  * @方法描述: IncorrectCaptchaException. <br/>
  */

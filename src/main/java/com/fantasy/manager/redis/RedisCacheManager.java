@@ -11,7 +11,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import java.io.Serializable;
 
 /**
- * @作者 yunfeiyang
+ * @作者 hwangfantasy
  * @创建时间: 2017/6/1 <br/>
  * @方法描述: RedisCacheManager. <br/>
  */

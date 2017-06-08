@@ -10,7 +10,7 @@ import org.apache.shiro.cache.CacheManager;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @作者 yunfeiyang
+ * @作者 hwangfantasy
  * @创建时间: 2017/6/1 <br/>
  * @方法描述: RetryLimitHashedCredentialsMatcher. <br/>
  */
