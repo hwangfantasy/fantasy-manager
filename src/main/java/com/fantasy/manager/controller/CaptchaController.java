@@ -37,7 +37,7 @@ public class CaptchaController {
      * @throws Exception
      */
     @RequestMapping(value = "/captcha", method = RequestMethod.GET)
-    public ModelAndView getKaptchaImage(HttpServletRequest request, HttpServletResponse response) throws Exception {
+    public ModelAndView getCaptchaImage(HttpServletRequest request, HttpServletResponse response) throws Exception {
         HttpSession session = request.getSession();
         response.setDateHeader("Expires", 0);
 
