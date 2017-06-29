@@ -21,7 +21,7 @@
         <div class="col-sm-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-                    <h3>用户管理</h3>
+                    <h3>权限管理</h3>
                 </div>
                 <div class="ibox-content">
                     <div class="">
@@ -38,15 +38,12 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr th:each="user:${users}">
+                        <tr th:each="user : ${users}">
                             <td th:text="${user.id}">01</td>
                             <td th:text="${user.name}">颜艺</td>
                             <td th:text="${user.role}">超级管理员</td>
                             <td th:text="${user.status}">激活</td>
-                            <td>
-                                <a onclick="disableUser();" class="btn-sm btn-danger ">禁用用户</a>
-                                <a onclick="deleteUser();" class="btn-sm btn-danger ">删除用户</a>
-                            </td>
+                            <td th:text="${user.xx}">程序员</td>
                         </tr>
                     </table>
                 </div>
