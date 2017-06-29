@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>登录</title>
-    <meta name="keywords" content="fantasy-manager,登录">
-    <meta name="description" content="fantasy-manager的登录页面">
-
-    <link rel="shortcut icon" href="../../img/favicon.ico">
-    <link href="../../css/bootstrap.min14ed.css" rel="stylesheet">
-    <link href="../../css/font-awesome.min93e3.css" rel="stylesheet">
-    <link href="../../css/plugins/iCheck/custom.css" rel="stylesheet">
-    <link href="../../css/animate.min.css" rel="stylesheet">
-    <link href="../../css/style.min862f.css" rel="stylesheet">
+    <meta name="keywords" content="fantasy-manager,登录" />
+    <meta name="description" content="fantasy-manager的登录页面" />
+    <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <link href="../../css/bootstrap.min14ed.css" rel="stylesheet" />
+    <link href="../../css/font-awesome.min93e3.css" rel="stylesheet" />
+    <link href="../../css/plugins/iCheck/custom.css" rel="stylesheet" />
+    <link href="../../css/animate.min.css" rel="stylesheet" />
+    <link href="../../css/style.min862f.css" rel="stylesheet" />
     <!--[if lt IE 9]>
     <meta http-equiv="refresh" content="0;ie.html"/>
     <![endif]-->
@@ -21,32 +19,27 @@
         window.top.location = window.location;
     }</script>
 </head>
-
 <body class="gray-bg">
-
 <div class="middle-box text-center loginscreen  animated fadeInDown">
     <div>
         <h3>欢迎使用 Fantasy Manager</h3>
-
         <form class="m-t " role="form" method="post">
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="用户名" name="username">
+                <input type="text" class="form-control" placeholder="用户名" name="username" />
             </div>
             <div class="form-group">
-                <input type="password" class="form-control" placeholder="密码" name="password">
+                <input type="password" class="form-control" placeholder="密码" name="password" />
             </div>
             <div class="form-group form-inline">
-                <input type="text" class="form-control"  name="captcha"/>
-                <img th:src="@{/captcha}" id="captchaImg" align="right" onclick="refreshImg();"/>
+                <input type="text" class="form-control" name="captcha" />
+                <img th:src="@{/captcha}" id="captchaImg" align="right" onclick="refreshImg();" />
             </div>
             <div class="form-group text-left">
                 <div class="checkbox i-checks">
-                    <label class="no-padding">
-                        <input type="checkbox" name="rememberMe"><i></i> 记住我</label>
+                    <label class="no-padding"> <input type="checkbox" name="rememberMe" /><i></i> 记住我</label>
                 </div>
             </div>
             <button type="submit" class="btn btn-primary block full-width m-b">登 录</button>
-
         </form>
     </div>
 </div>
@@ -56,7 +49,6 @@
 <script>
     $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green",})});
 </script>
-<script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
 <script type="text/javascript">
     function refreshImg() {
         var img = document.getElementById("captchaImg");
@@ -65,4 +57,3 @@
 </script>
 </body>
 </html>
-

@@ -113,7 +113,7 @@ CREATE TABLE `sys_user` (
   `modify_user` int(11) DEFAULT NULL COMMENT '修改者id',
   `modfiy_time` datetime DEFAULT NULL COMMENT '修改时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of sys_user
