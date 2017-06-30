@@ -21,10 +21,9 @@ public class UserController extends AbstractController {
     private UserService userService;
 
 
-    @RequestMapping(value = "/showUsersList")
-    @ResponseBody
-    public Object showUsersList(){
-        return userService.findAllSysUsers();
+    @RequestMapping(value = "/showUsersPage")
+    public String showUsersList(){
+        return "users";
     }
 
     @OperationLog("查找用户")

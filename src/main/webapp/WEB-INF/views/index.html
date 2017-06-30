@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <!-- Mirrored from www.zi-han.net/theme/hplus/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jan 2016 14:16:41 GMT -->
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="renderer" content="webkit" />
     <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <title>H+ 后台主题UI框架 - 主页</title>
-    <meta name="keywords" content="H+后台主题,后台bootstrap框架,会员中心主题,后台HTML,响应式后台" />
-    <meta name="description" content="H+是一个完全响应式，基于Bootstrap3最新版本开发的扁平化主题，她采用了主流的左右两栏式布局，使用了Html5+CSS3等现代技术" />
+    <title>Fantasy Manager</title>
+    <meta name="keywords" content="Fantasy Manager,响应式后台" />
+    <meta name="description" content="Fantasy Manager" />
     <!--[if lt IE 9]>
     <meta http-equiv="refresh" content="0;ie.html"/>
     <![endif]-->
@@ -42,8 +42,8 @@
                     <div class="logo-element">
                         FM
                     </div> </li>
-                <li> <a class="J_menuItem" href="main.html"><i class="fa fa-home"></i> <span class="nav-label">首页</span></a> </li>
-                <li> <a class="J_menuItem" href="users.html"><i class="fa fa-users"></i> <span class="nav-label">用户管理</span></a> </li>
+                <li> <a class="J_menuItem" th:href="@{/user/showUsersPage}"><i class="fa fa-home"></i> <span class="nav-label">首页</span></a> </li>
+                <li> <a class="J_menuItem" th:href="@{users.html}"><i class="fa fa-users"></i> <span class="nav-label">用户管理</span></a> </li>
                 <li> <a class="J_menuItem" href="roles.html"><i class="fa fa-legal"></i> <span class="nav-label">角色管理</span></a> </li>
                 <li> <a class="J_menuItem" href="permissions.html"><i class="fa fa-shield"></i> <span class="nav-label">权限管理</span></a> </li>
             </ul>
