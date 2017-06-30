@@ -1,4 +1,4 @@
-package com.fantasy.manager.common;
+package com.fantasy.manager.aop;
 
 import com.alibaba.fastjson.JSON;
 import com.fantasy.manager.annotation.OperationLog;
@@ -63,7 +63,7 @@ public class SysLogAspect {
 
         // 用户名
         SysUser sysUser = (SysUser) SecurityUtils.getSubject().getPrincipal();
-        sysLogBean.setOperateUser(sysUser.getUsername());
+        sysLogBean.setOperateUser(sysUser == null ? "SYSTEM" : sysUser.getUsername());
 
         // 保存系统日志
         logService.saveSysLog(sysLogBean);

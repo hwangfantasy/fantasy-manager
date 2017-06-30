@@ -20,6 +20,13 @@ public class UserController extends AbstractController {
     @Autowired
     private UserService userService;
 
+
+    @RequestMapping(value = "/showUsersList")
+    @ResponseBody
+    public Object showUsersList(){
+        return userService.findAllSysUsers();
+    }
+
     @OperationLog("查找用户")
     @RequestMapping(value = "/findUser/{id}")
     @ResponseBody
@@ -27,6 +34,7 @@ public class UserController extends AbstractController {
         return userService.findSysUserById(id).getUsername();
     }
 
+    @OperationLog("创建用户")
     @RequestMapping("/createUser")
     @ResponseBody
     public String createUser(@RequestParam String username,@RequestParam String password){

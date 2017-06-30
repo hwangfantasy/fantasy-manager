@@ -3,6 +3,7 @@ package com.fantasy.manager.service;
 import com.fantasy.manager.bean.*;
 import com.fantasy.manager.common.PasswordGenerator;
 import com.fantasy.manager.dao.*;
+import com.fantasy.manager.dto.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
@@ -36,6 +37,22 @@ public class UserService {
 
     public SysUser findSysUserById(Integer id) {
         return sysUserMapper.selectByPrimaryKey(id);
+    }
+
+    public List<UserDTO> findAllSysUsers(){
+        SysUserExample sysUserExample = new SysUserExample();
+        sysUserExample.createCriteria().andIdIsNotNull();
+        List<SysUser> sysUsers = sysUserMapper.selectByExample(sysUserExample);
+        List<UserDTO> userDTOS = new ArrayList<>();
+        for (SysUser sysUser : sysUsers){
+            UserDTO userDTO = new UserDTO();
+            userDTO.setId(sysUser.getId());
+            userDTO.setName(sysUser.getUsername());
+            userDTO.setStatus(!sysUser.getLocked());
+            userDTO.setRole(findRolesByUsername(sysUser.getUsername()).toString());
+            userDTOS.add(userDTO);
+        }
+        return userDTOS;
     }
 
     public SysUser findSysUserByUsername(String username) {
