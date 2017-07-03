@@ -10,7 +10,7 @@ public class UserDTO {
      private Integer id;
      private String name;
      private String role;
-     private boolean status;
+     private String status;
 
     public Integer getId() {
         return id;
@@ -36,11 +36,21 @@ public class UserDTO {
         this.role = role;
     }
 
-    public boolean isStatus() {
+    public String getStatus() {
         return status;
     }
 
-    public void setStatus(boolean status) {
+    public void setStatus(String status) {
         this.status = status;
+    }
+
+    @Override
+    public String toString() {
+        return "UserDTO{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", role='" + role + '\'' +
+                ", status='" + status + '\'' +
+                '}';
     }
 }

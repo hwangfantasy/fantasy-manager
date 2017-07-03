@@ -48,7 +48,7 @@ public class UserService {
             UserDTO userDTO = new UserDTO();
             userDTO.setId(sysUser.getId());
             userDTO.setName(sysUser.getUsername());
-            userDTO.setStatus(!sysUser.getLocked());
+            userDTO.setStatus(!sysUser.getLocked()?"已激活":"已禁用");
             userDTO.setRole(findRolesByUsername(sysUser.getUsername()).toString());
             userDTOS.add(userDTO);
         }

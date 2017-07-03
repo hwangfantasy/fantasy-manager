@@ -44,7 +44,7 @@ public class SysController extends AbstractController {
         return "login";
     }
 
-    @RequestMapping(value = {"/login"})
+    @RequestMapping(value = {"/logout"})
     public String logout() {
         //todo 清除该用户缓存
         return "login";
