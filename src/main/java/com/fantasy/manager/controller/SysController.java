@@ -1,8 +1,10 @@
 package com.fantasy.manager.controller;
 
 import com.fantasy.manager.common.IncorrectCaptchaException;
+import com.fantasy.manager.service.LogService;
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,6 +18,10 @@ import javax.servlet.http.HttpServletRequest;
  */
 @Controller
 public class SysController extends AbstractController {
+
+    @Autowired
+    private LogService logService;
+
     @RequestMapping(value = {"/index","/"})
     public String index(){
         return "index";
@@ -24,6 +30,12 @@ public class SysController extends AbstractController {
     @RequestMapping(value = "/showMainPage")
     public String showMainPage(){
         return "main";
+    }
+
+    @RequestMapping(value = "/showLogsPage")
+    public String showLogsPage(Model model){
+        model.addAttribute("logs",logService.findAllSysLogs());
+        return "logs";
     }
 
     @RequestMapping(value = {"/login"})
