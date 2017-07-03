@@ -6,13 +6,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 /**
  * @作者 yunfeiyang
  * @创建时间: 2017/6/30 <br/>
- * @方法描述: MainController. <br/>
+ * @方法描述: PermisionController. <br/>
  */
 @Controller
-@RequestMapping("/main")
-public class MainController extends AbstractController {
-    @RequestMapping(value = "/showMainPage")
+@RequestMapping("/permission")
+public class PermissionController extends AbstractController {
+    @RequestMapping(value = "/showPermissionsPage")
     public String showUsersList(){
-        return "main";
+        return "permissions";
     }
 }
