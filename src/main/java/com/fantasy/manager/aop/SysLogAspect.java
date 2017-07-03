@@ -1,6 +1,5 @@
 package com.fantasy.manager.aop;
 
-import com.alibaba.fastjson.JSON;
 import com.fantasy.manager.annotation.OperationLog;
 import com.fantasy.manager.bean.SysLog;
 import com.fantasy.manager.bean.SysUser;
@@ -50,14 +49,19 @@ public class SysLogAspect {
         String methodName = methodSignature.getName();
         sysLogBean.setMethod(className + "." + methodName + "()");
 
-        // 请求的参数
-        Object[] args = joinPoint.getArgs();
-        String params = JSON.toJSONString(args[0]);
-        sysLogBean.setParameter(params);
-
         // 获取request
         HttpServletRequest request =
-                        ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
+                ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
+        // 请求的参数
+        StringBuilder stringBuilder = new StringBuilder();
+        for (String s : request.getParameterMap().keySet()) {
+            stringBuilder.append(s);
+            stringBuilder.append(" = ");
+            stringBuilder.append(request.getParameterMap().get(s)[0]);
+            stringBuilder.append(" | ");
+        }
+        sysLogBean.setParameter(stringBuilder.toString());
+
         // 设置IP地址
         sysLogBean.setIp(IpUtil.getIpAddress(request));
 

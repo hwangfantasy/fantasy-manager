@@ -224,7 +224,9 @@
         <property name="rememberMeParam" value="rememberMe"/>
         <property name="captchaParam" value="captcha"/>
     </bean>
-
+    <bean id="logoutFilter" class="com.fantasy.manager.shiro.SystemLogoutFilter">
+        <property name="redirectUrl" value="/login" />
+    </bean>
     <!-- Shiro的Web过滤器 -->
     <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
         <property name="securityManager" ref="securityManager"/>
@@ -234,6 +236,7 @@
         <property name="filters">
             <util:map>
                 <entry key="authc" value-ref="captchaFormAuthenticationFilter"/>
+                <entry key="logout" value-ref="logoutFilter" />
             </util:map>
         </property>
         <property name="filterChainDefinitions">
