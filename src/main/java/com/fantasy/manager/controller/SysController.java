@@ -11,14 +11,23 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * @作者 hwangfantasy
- * @创建时间: 2017/6/2 <br/>
- * @方法描述: LoginController. <br/>
+ * @创建时间: 2017/5/27 <br/>
+ * @方法描述: SysController. <br/>
  */
 @Controller
-public class LoginController extends AbstractController {
+public class SysController extends AbstractController {
+    @RequestMapping(value = {"/index","/"})
+    public String index(){
+        return "index";
+    }
+
+    @RequestMapping(value = "/showMainPage")
+    public String showMainPage(){
+        return "main";
+    }
 
     @RequestMapping(value = {"/login"})
-    public String showLoginForm(HttpServletRequest req, Model model) {
+    public String login(HttpServletRequest req, Model model) {
         Exception exception = (Exception) req.getAttribute("shiroLoginFailure");
         String exceptionClassName = exception == null ? null : exception.getClass().getName();
         String error = null;
@@ -34,4 +43,11 @@ public class LoginController extends AbstractController {
         model.addAttribute("error", error);
         return "login";
     }
+
+    @RequestMapping(value = {"/login"})
+    public String logout() {
+        //todo 清除该用户缓存
+        return "login";
+    }
+
 }

@@ -36,13 +36,13 @@
                             <li><a class="J_menuItem" href="profile.html">个人资料</a> </li>
                             <li><a class="J_menuItem" href="about.html">关于</a> </li>
                             <li class="divider"></li>
-                            <li><a href="login.html">安全退出</a> </li>
+                            <li><a th:href="@{/logout}">安全退出</a> </li>
                         </ul>
                     </div>
                     <div class="logo-element">
                         FM
                     </div> </li>
-                <li> <a class="J_menuItem" th:href="@{/main/showMainPage}"><i class="fa fa-home"></i> <span class="nav-label">首页</span></a> </li>
+                <li> <a class="J_menuItem" th:href="@{/showMainPage}"><i class="fa fa-home"></i> <span class="nav-label">首页</span></a> </li>
                 <li> <a class="J_menuItem" th:href="@{/user/showUsersPage}"><i class="fa fa-users"></i> <span class="nav-label">用户管理</span></a> </li>
                 <li> <a class="J_menuItem" th:href="@{/role/showRolesPage}"><i class="fa fa-legal"></i> <span class="nav-label">角色管理</span></a> </li>
                 <li> <a class="J_menuItem" th:href="@{/permission/showPermissionsPage}"><i class="fa fa-shield"></i> <span class="nav-label">权限管理</span></a> </li>
@@ -64,7 +64,7 @@
             </nav>
         </div>
         <div class="row J_mainContent" id="content-main">
-            <iframe class="J_iframe" name="iframe" width="100%" height="100%" src="main.html" frameborder="0" data-id="main.html" seamless=""></iframe>
+            <iframe class="J_iframe" name="iframe" width="100%" height="100%" th:src="@{/showMainPage}" frameborder="0" data-id="main.html" seamless=""></iframe>
         </div>
         <div class="footer">
             <div class="pull-right">

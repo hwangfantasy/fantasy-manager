@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * @作者 yunfeiyang
+ * @作者 hwangfantasy
  * @创建时间: 2017/6/30 <br/>
  * @方法描述: RoleController. <br/>
  */
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class RoleController extends AbstractController{
 
     @RequestMapping(value = "/showRolesPage")
-    public String showUsersList(){
+    public String showRolesPage(){
         return "roles";
     }
 }
