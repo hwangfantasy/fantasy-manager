@@ -27,6 +27,16 @@ public class SysController extends AbstractController {
         return "index";
     }
 
+    @RequestMapping(value = {"/404"})
+    public String show404Page(){
+        return "404";
+    }
+
+    @RequestMapping(value = {"/500"})
+    public String show500Page(){
+        return "500";
+    }
+
     @RequestMapping(value = "/showMainPage")
     public String showMainPage(){
         return "main";
