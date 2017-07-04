@@ -242,6 +242,8 @@
         <property name="filterChainDefinitions">
             <value>
                 /captcha = anon
+                /404 = anon
+                /500 = anon
                 /login = authc
                 /logout = logout
                 /authenticated = authc
