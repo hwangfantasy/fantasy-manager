@@ -245,6 +245,7 @@
                 /404 = anon
                 /500 = anon
                 /login = authc
+                /index = authc
                 /logout = logout
                 /authenticated = authc
                 /css/** = anon
