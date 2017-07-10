@@ -12,6 +12,7 @@
     <link href="../../css/plugins/iCheck/custom.css" rel="stylesheet" />
     <link href="../../css/animate.min.css" rel="stylesheet" />
     <link href="../../css/style.min862f.css" rel="stylesheet" />
+    <link href="../../css/plugins/toastr/toastr.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <meta http-equiv="refresh" content="0;ie.html"/>
     <![endif]-->
@@ -22,6 +23,7 @@
 <body class="gray-bg">
 <div class="middle-box text-center loginscreen  animated fadeInDown">
     <div>
+        <input type="hidden" id = "error" th:value="${error}">
         <span><img alt="image" class="img-circle" style="width:80px;height:80px;" src="../../img/profile_small.jpg" /></span>
         <form class="m-t " role="form" method="post">
             <div class="form-group">
@@ -54,6 +56,30 @@
         var img = document.getElementById("captchaImg");
         img.src = "captcha?rand=" + Math.random();
     }
+</script>
+<script src="../../js/plugins/toastr/toastr.min.js"></script>
+<script>
+    toastr.options = {
+        "closeButton": true,
+        "debug": false,
+        "progressBar": false,
+        "positionClass": "toast-top-center",
+        "onclick": null,
+        "showDuration": "400",
+        "hideDuration": "1000",
+        "timeOut": "7000",
+        "extendedTimeOut": "1000",
+        "showEasing": "swing",
+        "hideEasing": "linear",
+        "showMethod": "fadeIn",
+        "hideMethod": "fadeOut"
+    }
+    $(document).ready(function () {
+        var error = $("#error").val()
+        if (error !== null || error !== undefined || error !== ''){
+            toastr.error(error, '登录失败')
+        }
+    });
 </script>
 </body>
 </html>

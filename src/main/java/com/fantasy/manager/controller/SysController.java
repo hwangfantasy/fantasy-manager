@@ -54,7 +54,7 @@ public class SysController extends AbstractController {
         String exceptionClassName = exception == null ? null : exception.getClass().getName();
         String error = null;
         if (UnknownAccountException.class.getName().equals(exceptionClassName)) {
-            error = "用户名/密码错误";
+            error = "用户不存在";
         } else if (IncorrectCredentialsException.class.getName().equals(exceptionClassName)) {
             error = "用户名/密码错误";
         } else if (IncorrectCaptchaException.class.getName().equals(exceptionClassName)) {
