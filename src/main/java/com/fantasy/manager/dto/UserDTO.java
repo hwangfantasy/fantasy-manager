@@ -7,10 +7,10 @@ package com.fantasy.manager.dto;
  */
 
 public class UserDTO {
-     private Integer id;
-     private String name;
-     private String role;
-     private String status;
+    private Integer id;
+    private String name;
+    private String role;
+    private String status;
 
     public Integer getId() {
         return id;

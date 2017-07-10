@@ -31,7 +31,16 @@
                 <li class="nav-header">
                     <div class="dropdown profile-element">
                         <span><img alt="image" class="img-circle" style="width:80px;height:80px;" src="../../img/profile_small.jpg" /></span>
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#"> <span class="clear"> <span class="block m-t-xs" style="line-height: 30px"><strong class="font-bold">用户名</strong></span><span class="text-muted text-xs block">角色名<b class="caret"></b></span> </span> </a>
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="clear">
+                            <span class="block m-t-xs" style="line-height: 30px">
+                            <strong class="font-bold">
+                                <shiro:guest>访客</shiro:guest>
+                                <shiro:user><shiro:principal/></shiro:user>
+                            </strong>
+                            </span>
+                            </span>
+                        </a>
                         <ul class="dropdown-menu animated fadeInRight m-t-xs">
                             <li><a class="J_menuItem" href="form_avatar.html">修改头像</a> </li>
                             <li><a class="J_menuItem" href="profile.html">个人资料</a> </li>
