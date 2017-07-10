@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50714
 File Encoding         : 65001
 
-Date: 2017-06-01 14:45:25
+Date: 2017-07-10 15:29:35
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -28,11 +28,12 @@ CREATE TABLE `sys_log` (
   `ip` varchar(20) DEFAULT NULL COMMENT 'ip地址',
   `operate_time` datetime DEFAULT NULL COMMENT '操作时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of sys_log
 -- ----------------------------
+INSERT INTO `sys_log` VALUES ('1', 'SYSTEM', '创建用户', 'com.fantasy.manager.controller.UserController.createUser()', '\"jackson\"', '127.0.0.1', '2017-06-30 15:35:38');
 
 -- ----------------------------
 -- Table structure for sys_permission
@@ -51,11 +52,15 @@ CREATE TABLE `sys_permission` (
   `modify_user` int(11) DEFAULT NULL COMMENT '修改者id',
   `modify_time` datetime DEFAULT NULL COMMENT '修改时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of sys_permission
 -- ----------------------------
+INSERT INTO `sys_permission` VALUES ('1', '用户管理', '1', '0', null, 'users:list', '1', '1', '2017-07-10 15:12:53', null, null);
+INSERT INTO `sys_permission` VALUES ('2', '添加用户', '2', '1', null, 'users:add', '1', '1', '2017-07-10 15:12:56', null, null);
+INSERT INTO `sys_permission` VALUES ('3', '删除用户', '2', '1', null, 'users:delete', '1', '1', '2017-07-10 15:12:59', null, null);
+INSERT INTO `sys_permission` VALUES ('4', '禁用用户', '2', '1', null, 'users:disable', '1', '1', '2017-07-10 15:13:01', null, null);
 
 -- ----------------------------
 -- Table structure for sys_role
@@ -71,11 +76,14 @@ CREATE TABLE `sys_role` (
   `modify_user` int(11) DEFAULT NULL COMMENT '修改者id',
   `modify_time` datetime DEFAULT NULL COMMENT '修改时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of sys_role
 -- ----------------------------
+INSERT INTO `sys_role` VALUES ('1', 'ADMIN', '管理员', '1', '0', '2017-07-04 14:09:49', null, null);
+INSERT INTO `sys_role` VALUES ('2', 'OPERATOR', '操作人员', '1', '1', '2017-07-04 14:11:21', null, null);
+INSERT INTO `sys_role` VALUES ('3', 'NORMALUSER', '普通用户', '1', '1', '2017-07-04 14:11:49', null, null);
 
 -- ----------------------------
 -- Table structure for sys_role_permission
@@ -91,11 +99,15 @@ CREATE TABLE `sys_role_permission` (
   `modify_time` datetime DEFAULT NULL,
   `available` tinyint(1) DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of sys_role_permission
 -- ----------------------------
+INSERT INTO `sys_role_permission` VALUES ('1', '1', '1', '1', '2017-07-10 15:12:30', null, null, '1');
+INSERT INTO `sys_role_permission` VALUES ('2', '1', '2', '1', '2017-07-10 15:12:33', null, null, '1');
+INSERT INTO `sys_role_permission` VALUES ('3', '1', '3', '1', '2017-07-10 15:12:36', null, null, '1');
+INSERT INTO `sys_role_permission` VALUES ('4', '1', '4', '1', '2017-07-10 15:12:39', null, null, '1');
 
 -- ----------------------------
 -- Table structure for sys_user
@@ -113,12 +125,14 @@ CREATE TABLE `sys_user` (
   `modify_user` int(11) DEFAULT NULL COMMENT '修改者id',
   `modfiy_time` datetime DEFAULT NULL COMMENT '修改时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
-INSERT INTO `sys_user` VALUES ('1', 'admin', '5bd5e34f690351e3c62cd481964a11af', 'fc41e42ed873b99c2b46f7cbae596444', null, '0', null, '2017-05-27 16:43:41', null, null);
+INSERT INTO `sys_user` VALUES ('1', 'admin', '2e6418dc549dc867dfb88094ec4cc16b', '0977f3f881cbb24ce1a5522c90f194e2', null, '0', null, '2017-06-30 15:20:06', null, null);
+INSERT INTO `sys_user` VALUES ('2', 'hwangfantasy', '51960d29e22b4ef49c1b0da955a66f85', '882bad6594fa3311fc22d7a069bfe5b1', null, '0', null, '2017-06-30 15:22:01', null, null);
+INSERT INTO `sys_user` VALUES ('3', 'jackson', '5492150479f160d87f44756c2bd385d5', 'd0d812ebe570f5c4d9ea359e4ee979fb', null, '0', null, '2017-06-30 15:35:38', null, null);
 
 -- ----------------------------
 -- Table structure for sys_user_role
@@ -134,8 +148,11 @@ CREATE TABLE `sys_user_role` (
   `modify_time` datetime DEFAULT NULL,
   `available` tinyint(1) DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of sys_user_role
 -- ----------------------------
+INSERT INTO `sys_user_role` VALUES ('1', '1', '1', '0', '2017-07-04 14:12:15', null, null, '1');
+INSERT INTO `sys_user_role` VALUES ('2', '2', '2', '1', '2017-07-04 14:12:25', null, null, '1');
+INSERT INTO `sys_user_role` VALUES ('3', '2', '2', '1', '2017-07-04 14:12:34', null, null, '1');
